@@ -50,7 +50,7 @@ export default function HeroSection() {
             className="flex gap-4"
           >
             <a
-              href="https://github.com/Abhishkek-Verma"
+              href="https://github.com/Abhishhek-Verma"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-background/80 p-2 rounded-full hover:bg-background/90 transition-colors"
@@ -59,7 +59,7 @@ export default function HeroSection() {
               <span className="sr-only">GitHub</span>
             </a>
             <a
-              href="https://www.linkedin.com/in/Abhishkek-Verma"
+              href="https://www.linkedin.com/in/Abhishhek-Verma"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-background/80 p-2 rounded-full hover:bg-background/90 transition-colors"
