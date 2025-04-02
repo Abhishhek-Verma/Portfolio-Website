@@ -95,7 +95,7 @@ export default function ContactSection() {
                   <p className="text-sm font-medium mb-2">Social Profiles</p>
                   <div className="flex gap-3">
                     <a
-                      href="https://www.linkedin.com/in/Abhishkek-Verma"
+                      href="https://www.linkedin.com/in/Abhishhek-Verma"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-primary/10 p-2 rounded-full hover:bg-primary/20 transition-colors"
@@ -104,7 +104,7 @@ export default function ContactSection() {
                       <span className="sr-only">LinkedIn</span>
                     </a>
                     <a
-                      href="https://github.com/Abhishkek-Verma"
+                      href="https://github.com/Abhishhek-Verma"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-primary/10 p-2 rounded-full hover:bg-primary/20 transition-colors"
