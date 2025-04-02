@@ -3,7 +3,7 @@
 Welcome to my **Portfolio Website** repository! 🚀 This project is a reflection of my skills, experience, and achievements as a **Web Developer** and **Competitive Programmer**. It is designed to provide an engaging user experience while showcasing my best work.
 
 ## 📌 Live Preview
-🌐 Visit the live version of my portfolio: https://same-ycyitlv2tq0-latest.netlify.app/
+🌐 Visit the live version of my portfolio:https://abhishek-verma-portfolio.netlify.app/
 
 ## 📂 Project Structure
 ```
@@ -61,7 +61,7 @@ This portfolio is hosted on **GitHub Pages**, Netlify, or any other hosting plat
 📧 **Email:** abhi.ups838@gmail.com  
 🔗 **LinkedIn:**  https://www.linkedin.com/in/abhishhek-verma/
 
-🌐 **Portfolio:**  https://same-ycyitlv2tq0-latest.netlify.app/ 
+🌐 **Portfolio:** https://abhishek-verma-portfolio.netlify.app/ 
 
 💼 **GitHub:** [GitHub Profile](https://github.com/Abhishhek-Verma)  
 
