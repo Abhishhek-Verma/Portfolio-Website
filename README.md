@@ -61,7 +61,6 @@ This portfolio is hosted on **GitHub Pages**, Netlify, or any other hosting plat
 📧 **Email:** abhi.ups838@gmail.com  
 🔗 **LinkedIn:**  https://www.linkedin.com/in/abhishhek-verma/
 
-
 🌐 **Portfolio:**  https://same-ycyitlv2tq0-latest.netlify.app/ 
 
 💼 **GitHub:** [GitHub Profile](https://github.com/Abhishhek-Verma)  
