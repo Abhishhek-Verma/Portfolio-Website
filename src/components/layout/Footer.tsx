@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
         <div className="flex items-center gap-4">
           <Link
-            href="https://github.com/Abhishkek-Verma"
+            href="https://github.com/Abhishhek-Verma"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -16,7 +16,7 @@ export default function Footer() {
             <span className="sr-only">GitHub</span>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/Abhishkek-Verma"
+            href="https://www.linkedin.com/in/Abhishhek-Verma"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
