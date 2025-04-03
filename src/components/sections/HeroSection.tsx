@@ -35,7 +35,7 @@ export default function HeroSection() {
             className="space-y-3"
           >
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-              <span className="text-gradient">Abhishek Verma</span>
+              <span className="text-gradient">Hi, I'm Abhishek Verma</span>
             </h1>
 
             <p className="max-w-[700px] text-lg text-muted-foreground md:text-xl">
