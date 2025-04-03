@@ -32,7 +32,7 @@ export default function ProjectsSection() {
     {
       title: "Sundown Studio",
       description: "An interactive web application with smooth animations",
-      image: "/images/sundown-studio.png", // Placeholder image
+      image: "/images/projects/sundown-studio.webp", // Placeholder image
       techs: ["HTML", "CSS", "JavaScript", "Locomotive", "Swiper JS", "GSAP"],
       details: [
         "Created an interactive web application using HTML, CSS, and JavaScript with advanced libraries",
@@ -43,7 +43,7 @@ export default function ProjectsSection() {
     {
       title: "Artistry Hub",
       description: "A platform for artists to showcase and sell their artwork",
-      image: "/images/artistry-hub.png", // Placeholder image
+      image: "/images/projects/artistry-hub.png", // Placeholder image
       techs: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
       details: [
         "Developed a full-stack MERN application for artists to showcase their work",
@@ -54,7 +54,7 @@ export default function ProjectsSection() {
     {
       title: "Portfolio Website",
       description: "A professional portfolio website showcasing my skills and projects",
-      image: "/images/portfolio.png", // Placeholder image
+      image: "/images/projects/portfolio-image.png", // Placeholder image
       techs: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Shadcn UI"],
       details: [
         "Designed and developed a responsive portfolio website using Next.js and React",
