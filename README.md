@@ -7,7 +7,7 @@ Welcome to my **Portfolio Website** repository! 🚀 This project is a reflectio
 
 ## 📂 Project Structure
 ```
-📁 Portfolio-Website
+📁 Portfolio-Website.
 ├── 📂 assets        # Images, icons, and other assets
 ├── 📂 css           # Stylesheets
 ├── 📂 js            # JavaScript files
