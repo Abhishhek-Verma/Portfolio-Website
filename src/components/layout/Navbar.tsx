@@ -35,7 +35,11 @@ export default function Navbar() {
             </Link>
           ))}
           <Button asChild size="sm" variant="outline" className="rounded-full">
-            <a href="/images/Resume.png" download="Abhishek_Verma_Resume.png" className="flex items-center gap-1">
+            <a
+              href="/Abhishek_Verma_Resume.pdf"
+              download="Abhishek_Verma_Resume.pdf"
+              className="flex items-center gap-1"
+            >
               <FiFileText className="h-4 w-4" />
               Resume
             </a>
@@ -67,8 +71,8 @@ export default function Navbar() {
               ))}
               <Button asChild size="sm" variant="outline" className="mt-2 rounded-full">
                 <a
-                  href="/images/Resume.png"
-                  download="Abhishek_Verma_Resume.png"
+                  href="/Abhishek_Verma_Resume.pdf"
+                  download="Abhishek_Verma_Resume.pdf"
                   onClick={() => setIsOpen(false)}
                   className="flex items-center gap-1"
                 >
