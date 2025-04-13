@@ -44,7 +44,7 @@ export default function AboutSection() {
                   <h3 className="font-bold">KIET Group of Institutions</h3>
                   <p className="text-sm text-muted-foreground">Ghaziabad, U.P.</p>
                   <p className="text-sm">Bachelor of Technology in Computer Science (GPA: 8.4 / 10.00)</p>
-                  <p className="text-sm">Expected May 2027</p>
+                  <p className="text-sm">Expected June 2027</p>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">Relevant Coursework:</h4>
