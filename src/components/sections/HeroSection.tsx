@@ -82,7 +82,11 @@ export default function HeroSection() {
               </a>
             </Button>
             <Button asChild size="lg" variant="outline" className="rounded-full">
-              <a href="/images/Resume.png" download="Abhishek_Verma_Resume.png" className="flex items-center gap-2">
+              <a
+                href="/Abhishek_Verma_Resume.pdf"
+                download="Abhishek_Verma_Resume.pdf"
+                className="flex items-center gap-2"
+              >
                 <FiFileText className="h-4 w-4" />
                 Download Resume
               </a>
