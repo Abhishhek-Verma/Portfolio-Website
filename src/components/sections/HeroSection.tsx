@@ -7,27 +7,12 @@ import { FiArrowRight, FiFileText, FiGithub, FiLinkedin } from "react-icons/fi";
 
 export default function HeroSection() {
   return (
-    <section className="relative py-20 md:py-28 overflow-hidden">
-      {/* 🔥 Background Video */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-[-2]"
-      >
-        <source src="/videos/bg.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    <section className="hero-gradient relative py-20 md:py-28 overflow-hidden">
+      {/* Background blur circles */}
+      <div className="absolute -top-24 -left-24 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl" />
+      <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-purple-400/10 rounded-full blur-3xl" />
 
-      {/* 🌓 Optional dark overlay */}
-      <div className="absolute top-0 left-0 w-full h-full bg-black/40 z-[-1]" />
-
-      {/* 🔵 Blur background circles (still works) */}
-      <div className="absolute -top-24 -left-24 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl z-0" />
-      <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-purple-400/10 rounded-full blur-3xl z-0" />
-
-      <div className="container px-4 md:px-6 relative z-10">
+      <div className="container px-4 md:px-6 relative">
         <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
