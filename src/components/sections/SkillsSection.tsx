@@ -135,7 +135,7 @@ export default function SkillsSection() {
                   <p className="text-sm mb-1 flex items-center">
                     <span className="font-medium">Leetcode:</span>
                     <span className="ml-2 px-2 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 text-xs rounded-full">
-                      250+ Questions
+                      300+ Questions
                     </span>
                   </p>
                 </div>
