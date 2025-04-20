@@ -21,7 +21,7 @@ export default function ContactSection() {
     setEmail("");
     setMessage("");
 
-    // Reset submitted status after 3 seconds
+    // Reset submitted status after 3 second
     setTimeout(() => {
       setSubmitted(false);
     }, 3000);
