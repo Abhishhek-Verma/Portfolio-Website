@@ -27,7 +27,7 @@ export default function ProjectsSection() {
    {
   title: "DevScope",
   description: "An AI-powered GitHub portfolio generator",
-  image: "https://images.unsplash.com/photo-1581090700227-1e8eafbf57e9?auto=format&fit=crop&w=800&q=80",
+  image: "/public/images/projects/DevScope.png",
   techs: [
     "MongoDB",
     "Express",
