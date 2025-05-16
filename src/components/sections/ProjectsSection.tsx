@@ -28,7 +28,7 @@ export default function ProjectsSection() {
       title: "DevScope",
       description: "An AI-powered GitHub portfolio generator",
       image:
-        "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a6?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1559028012-481c04fa7023?auto=format&fit=crop&w=800&q=80",
       techs: [
         "MongoDB",
         "Express",
@@ -61,7 +61,7 @@ export default function ProjectsSection() {
       title: "Airbnb Clone",
       description: "A full-featured clone of Airbnb with property listings and reservations",
       image:
-        "https://images.unsplash.com/photo-1505692794403-34cb84fc33f2?auto=format&fit=crop&w=800&q=80",
+       "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80",
       techs: ["MongoDB", "Express", "React", "Node.js"],
       githubUrl: "https://github.com/Abhishhek-Verma/Airbnb",
       details: [
