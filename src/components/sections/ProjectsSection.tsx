@@ -24,26 +24,26 @@ interface Project {
 
 export default function ProjectsSection() {
   const projects: Project[] = [
-    {
-      title: "DevScope",
-      description: "An AI-powered GitHub portfolio generator",
-      image:
-        "https://images.unsplash.com/photo-1559028012-481c04fa7023?auto=format&fit=crop&w=800&q=80",
-      techs: [
-        "MongoDB",
-        "Express",
-        "React",
-        "Node.js",
-        "OpenAI API",
-        "GitHub GraphQL API",
-      ],
-      githubUrl: "https://github.com/Abhishhek-Verma/DevScope",
-      details: [
-        "Generated dynamic GitHub portfolios using OpenAI and GitHub GraphQL APIs",
-        "Analyzed user GitHub data to build intelligent summaries and timelines",
-        "Built with the MERN stack and styled using Tailwind CSS",
-      ],
-    },
+   {
+  title: "DevScope",
+  description: "An AI-powered GitHub portfolio generator",
+  image: "https://images.unsplash.com/photo-1581090700227-1e8eafbf57e9?auto=format&fit=crop&w=800&q=80",
+  techs: [
+    "MongoDB",
+    "Express",
+    "React",
+    "Node.js",
+    "OpenAI API",
+    "GitHub GraphQL API",
+  ],
+  githubUrl: "https://github.com/Abhishhek-Verma/DevScope",
+  details: [
+    "Generated dynamic GitHub portfolios using OpenAI and GitHub GraphQL APIs",
+    "Analyzed user GitHub data to build intelligent summaries and timelines",
+    "Built with the MERN stack and styled using Tailwind CSS",
+  ],
+},
+
     {
       title: "Civic Platform",
       description: "A community engagement tool for local activism",
