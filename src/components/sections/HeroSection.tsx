@@ -103,10 +103,9 @@ export default function HeroSection() {
             <div className="glass-card rounded-xl p-6 md:p-8 relative">
               <h2 className="text-xl md:text-2xl font-semibold mb-4">A Bit About Me</h2>
               <p className="text-muted-foreground">
-                Computer Science student at KIET Group of Institutions with a passion for web development
-                and data structures &amp; algorithms. I'm proficient in MERN stack development and have worked on
-                multiple projects including Spotify Clone and Artistry Hub. I enjoy building efficient,
-                user-friendly applications and solving complex problems.
+               Computer Science student at KIET Group of Institutions with a strong interest in web development and data structures & algorithms. Proficient in MERN stack development, I have built several full-stack applications, including DevScope—an AI-powered GitHub portfolio generator—and Civic Platform, a community engagement tool for local activism. I’m passionate about creating scalable, user-centric applications and enjoy tackling complex technical challenges.
+
+
               </p>
             </div>
           </motion.div>
