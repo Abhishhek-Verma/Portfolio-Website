@@ -19,47 +19,62 @@ interface Project {
 export default function ProjectsSection() {
   const projects: Project[] = [
     {
+      title: "DevScope",
+      description: "An AI-powered GitHub portfolio generator",
+      image: "https://source.unsplash.com/featured/?technology",
+      techs: ["Next.js", "TypeScript", "OpenAI API", "Tailwind CSS"],
+      githubUrl: "https://github.com/yourusername/devscope",
+      liveUrl: "https://devscope.vercel.app",
+      details: [
+        "Developed an AI-powered tool to generate personalized GitHub portfolios",
+        "Integrated OpenAI API for dynamic content generation",
+        "Implemented responsive design with Tailwind CSS and Next.js"
+      ]
+    },
+    {
+      title: "Civic Platform",
+      description: "A community engagement tool for local activism",
+      image: "https://source.unsplash.com/featured/?civic",
+      techs: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
+      githubUrl: "https://github.com/yourusername/civic-platform",
+      liveUrl: "https://civicplatform.example.com",
+      details: [
+        "Built a platform to connect local communities and organize events",
+        "Implemented user authentication and real-time chat features",
+        "Designed intuitive UI for event creation and community discussions"
+      ]
+    },
+    {
       title: "Spotify Clone",
       description: "A responsive frontend app that replicates the Spotify interface",
-      image: "/images/projects/spotify-clone.jpg",
+      image: "https://source.unsplash.com/featured/?music",
       techs: ["HTML", "CSS", "JavaScript"],
       details: [
         "Designed a responsive frontend that enhanced user engagement",
-        "Designed an intuitive, responsive interface for music browsing, playlist creation, and personalized recommendations",
-        "Implemented dynamic user interactions and optimized performance for seamless playback and navigation"
+        "Created an intuitive interface for music browsing and playlist creation",
+        "Implemented dynamic user interactions for seamless playback"
       ]
     },
     {
       title: "Sundown Studio",
       description: "An interactive web application with smooth animations",
-      image: "/images/projects/sundown-studio.webp", // Placeholder image
+      image: "https://source.unsplash.com/featured/?studio",
       techs: ["HTML", "CSS", "JavaScript", "Locomotive", "Swiper JS", "GSAP"],
       details: [
-        "Created an interactive web application using HTML, CSS, and JavaScript with advanced libraries",
-        "Designed smooth animations, scrolling effects, and responsive layouts to enhance user engagement",
-        "Integrated dynamic sliders and transitions for a seamless and immersive user experience"
+        "Created an interactive web application using advanced animation libraries",
+        "Designed smooth scrolling effects and responsive layouts",
+        "Integrated dynamic sliders for an immersive user experience"
       ]
     },
     {
       title: "Artistry Hub",
       description: "A platform for artists to showcase and sell their artwork",
-      image: "/images/projects/artistry-hub.png", // Placeholder image
+      image: "https://source.unsplash.com/featured/?art",
       techs: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
       details: [
         "Developed a full-stack MERN application for artists to showcase their work",
         "Implemented user authentication, artwork upload, and e-commerce features",
         "Created a responsive design with intuitive navigation and search functionality"
-      ]
-    },
-    {
-      title: "Portfolio Website",
-      description: "A professional portfolio website showcasing my skills and projects",
-      image: "/images/projects/portfolio-image.png", // Placeholder image
-      techs: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Shadcn UI"],
-      details: [
-        "Designed and developed a responsive portfolio website using Next.js and React",
-        "Implemented smooth animations and transitions using Framer Motion",
-        "Created a clean, modern UI with Tailwind CSS and Shadcn UI components"
       ]
     }
   ];
@@ -97,9 +112,9 @@ export default function ProjectsSection() {
             >
               <Card className="h-full flex flex-col border-none shadow-lg overflow-hidden">
                 <div className="h-56 overflow-hidden relative">
-                  {project.title === "Spotify Clone" ? (
+                  {project.image ? (
                     <Image
-                      src={project.image || ""}
+                      src={project.image}
                       alt={project.title}
                       className="object-cover"
                       fill
