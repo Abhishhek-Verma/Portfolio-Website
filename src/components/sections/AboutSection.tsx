@@ -100,6 +100,7 @@ export default function AboutSection() {
           </motion.div>
         </div>
 
+        {/* AI Certificate */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -121,6 +122,33 @@ export default function AboutSection() {
                 <h3 className="font-bold">Infosys Springboard Certificate</h3>
                 <p className="text-sm">In Artificial Intelligence</p>
                 <p className="text-sm text-muted-foreground">September-November 2024</p>
+              </div>
+            </CardContent>
+          </Card>
+        </motion.div>
+
+        {/* Cybersecurity Certificate */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          viewport={{ once: true }}
+          className="mt-6 card-hover"
+        >
+          <Card className="border-none shadow-md bg-gradient-to-br from-green-50 to-white dark:from-slate-900 dark:to-slate-800 backdrop-blur-md">
+            <CardHeader className="pb-2">
+              <div className="flex items-center gap-2">
+                <div className="p-2 rounded-full bg-green-100 dark:bg-green-900/30">
+                  <FiBarChart2 className="h-5 w-5 text-green-600 dark:text-green-400" />
+                </div>
+                <CardTitle>Certification</CardTitle>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <div className="border-l-2 border-green-500 pl-4 py-1">
+                <h3 className="font-bold">Cybersecurity Foundation Certificate</h3>
+                <p className="text-sm">Issued by Palo Alto Networks Academy</p>
+                <p className="text-sm text-muted-foreground">May 17, 2025</p>
               </div>
             </CardContent>
           </Card>
