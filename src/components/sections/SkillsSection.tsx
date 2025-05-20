@@ -40,9 +40,9 @@ export default function SkillsSection() {
       name: "Other Skills",
       icon: "🛠️",
       skills: [
-        { name: "Git", proficiency: 80 },
-        { name: "Microservices", proficiency: 70 },
-        { name: "DSA", proficiency: 85 },
+        { name: "Github", proficiency: 80 },
+        { name: " Railway", proficiency: 70 },
+        { name: " Vercel", proficiency: 85 },
       ],
     },
   ];
