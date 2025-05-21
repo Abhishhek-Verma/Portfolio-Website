@@ -119,8 +119,8 @@ export default function AboutSection() {
             </CardHeader>
             <CardContent>
               <div className="border-l-2 border-pink-500 pl-4 py-1">
-                <h3 className="font-bold">Infosys Springboard Certificate</h3>
-                <p className="text-sm">In Artificial Intelligence</p>
+                <h3 className="font-bold">Artificial Intelligence Foundation Certificate </h3>
+                <p className="text-sm">Issued by Infosys Springboard  </p>
                 <p className="text-sm text-muted-foreground">September-November 2024</p>
               </div>
             </CardContent>
@@ -148,7 +148,7 @@ export default function AboutSection() {
               <div className="border-l-2 border-green-500 pl-4 py-1">
                 <h3 className="font-bold">Cybersecurity Foundation Certificate</h3>
                 <p className="text-sm">Issued by Palo Alto Networks Academy</p>
-                <p className="text-sm text-muted-foreground">May 17, 2025</p>
+                <p className="text-sm text-muted-foreground">April-May 2025</p>
               </div>
             </CardContent>
           </Card>
