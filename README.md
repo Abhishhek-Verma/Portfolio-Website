@@ -3,7 +3,7 @@
 Welcome to my **Portfolio Website** repository! 🚀 This project is a reflection of my skills, experience, and achievements as a **Web Developer** and **Competitive Programmer**. It is designed to provide an engaging user experience while showcasing my best work.
 
 ## 📌 Live Preview
-🌐 Visit the live version of my portfolio:https://abhishek-verma-portfolio.netlify.app/
+🌐 Visit the live version of my portfolio:https://abhishek-verma-portfolio.netlify.app
 
 ## 📂 Project Structure
 ```
