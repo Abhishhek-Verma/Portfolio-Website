@@ -49,7 +49,6 @@ export default function SkillsSection() {
 
   return (
     <section id="skills" className="skills-gradient py-16 md:py-20 relative overflow-hidden">
-      {/* Background blur circles */}
       <div className="absolute top-24 -right-24 w-96 h-96 bg-blue-400/5 rounded-full blur-3xl" />
       <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-purple-400/5 rounded-full blur-3xl" />
 
@@ -132,12 +131,20 @@ export default function SkillsSection() {
                     <span className="text-blue-500 text-lg mr-2">🧩</span>
                     Coding Profiles
                   </h3>
-                  <p className="text-sm mb-1 flex items-center">
-                    <span className="font-medium">Leetcode:</span>
-                    <span className="ml-2 px-2 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 text-xs rounded-full">
-                      300+ Questions & Rating- 1680 (Top 14 % )
-                    </span>
-                  </p>
+                  <ul className="text-sm space-y-1">
+                    <li>
+                      <span className="font-medium">Leetcode:</span>{" "}
+                      <span className="ml-1 text-muted-foreground">
+                        1600+ rating, Top 14%, 300+ problems solved
+                      </span>
+                    </li>
+                    <li>
+                      <span className="font-medium">CodeChef:</span>{" "}
+                      <span className="ml-1 text-muted-foreground">
+                        1-Star (Max Rating: 1170), 150+ problems solved
+                      </span>
+                    </li>
+                  </ul>
                 </div>
 
                 <div className="p-4 bg-gradient-to-r from-purple-50 to-purple-100/50 dark:from-purple-900/20 dark:to-purple-800/10 rounded-lg">
