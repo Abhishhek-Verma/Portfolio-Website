@@ -23,7 +23,7 @@ export default function HeroSection() {
             <div className="rounded-full p-1 bg-gradient-to-r from-blue-500 to-purple-500">
               <Avatar className="h-32 w-32 md:h-40 md:w-40 border-4 border-background">
                 <AvatarImage src="/images/Profile.jpg" alt="Abhishek Verma" />
-                <AvatarFallback>AV</AvatarFallback>
+                <AvatarFallback>Abhishek</AvatarFallback>
               </Avatar>
             </div>
           </motion.div>
