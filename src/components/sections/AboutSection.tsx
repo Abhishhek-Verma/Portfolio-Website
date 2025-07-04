@@ -42,8 +42,8 @@ export default function AboutSection() {
               <CardContent className="space-y-4">
                 <div className="border-l-2 border-blue-500 pl-4 py-1">
                   <h3 className="font-bold">KIET Group of Institutions</h3>
-                  <p className="text-sm text-muted-foreground">Ghaziabad, U.P.</p>
-                  <p className="text-sm">Bachelor of Technology in Computer Science (GPA: 8.4 / 10.00)</p>
+                  <p className="text-sm text-muted-foreground">Ghaziabad, Delhi-NCR</p>
+                  <p className="text-sm">Bachelor of Technology in Computer Science (GPA: 8.23 / 10.00)</p>
                   <p className="text-sm">Expected June 2027</p>
                 </div>
                 <div>
