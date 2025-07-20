@@ -25,7 +25,7 @@ export default function Footer() {
             <span className="sr-only">LinkedIn</span>
           </Link>
           <Link
-            href="mailto:abhi.ups838@gmail.com"
+            href="mailto:abhishekatkiet@gmail.com"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
             <FiMail className="h-5 w-5" />
