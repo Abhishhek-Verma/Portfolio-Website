@@ -135,7 +135,7 @@ export default function SkillsSection() {
                     <li>
                       <span className="font-medium">Leetcode:</span>{" "}
                       <span className="ml-1 text-muted-foreground">
-                        1680 rating, Top 14%, 300+ problems solved
+                        1745 rating, Top 10%, 300+ problems solved
                       </span>
                     </li>
                     <li>
